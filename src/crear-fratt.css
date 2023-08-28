@@ -1,0 +1,16 @@
+.fratt-icon {
+  color: brown;
+}
+
+.botton-send {
+  width: 50px;
+  height: min-content;
+
+  border-radius: 7px;
+  border: rgba(99, 29, 29, 0.212) solid 2px;
+  background-color: rgba(165, 42, 42, 0.315);
+}
+
+.frame-botton+adds{
+  
+}

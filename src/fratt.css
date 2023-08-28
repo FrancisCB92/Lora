@@ -1,0 +1,82 @@
+/* .fratt-frame * {
+    
+} */
+.fratt-frame{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+    height: fit-content;
+    width: auto;
+    max-width: 600px;
+    margin: 15px;
+
+    border: rgba(99, 29, 29, 0.212) solid 2px;
+    /* border-radius: inherit; */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fratt-frame-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.fratt-img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.fratt-user-name{
+    font-size: large;
+    font: bold;
+    margin-right: 5px;
+}
+
+.fratt-id-user {
+    color: rgb(90, 90, 90);
+}
+
+.fratt-frame-msg {
+    /* border: blue 1px dotted; */
+    display: flex;
+    /* border: red 1px solid; */
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+
+    font-family: inherit;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.fratt-frame-msg p {
+    margin: 0;
+}
+
+.fratt-frame-actions {
+    /* border: red solid 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.fratt-icon {
+    color: brown;
+}
+
+.fratt-with-like {
+    color: brown;
+}
+
+.fratt-without-like{
+    color: brown;
+}
+
